@@ -18,17 +18,20 @@
 6. EmailService: implements the NotificationMedium to send email notifications
 
 ### Example Output 
---- Starting Alert System ---
+Starting Alert System
+
 [EmailService] Sending Email: Email notification example 1
 [EmailService] Sending Email: Email notification example 2
->>> Switching Notification Medium...
+
+Switching Notification Medium
 [SMSService] Sending SMS: SMS notification example 1
 [SMSService] Sending SMS: SMS notification example 2
->>> Switching Notification Medium...
+
+Switching Notification Medium
 [WhatsApp] Sending message: WhatsApp notification example 1
 [WhatsApp] Sending message: WhatsApp notification example 2
 
---- Session Message Log ---
+Session Message Log
 1. Email notification example 1
 2. Email notification example 2
 3. SMS notification example 1
